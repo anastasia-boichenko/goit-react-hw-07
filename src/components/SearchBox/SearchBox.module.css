@@ -1,0 +1,31 @@
+.searchBox {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+
+  padding: 15px;
+  background-color: #003135;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #afdde5;
+}
+
+.searchLabel {
+  font-size: 16px;
+  font-weight: 600;
+  color: #afdde5;
+}
+
+.searchField {
+  padding: 10px;
+  border: 1px solid #024950;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.searchField:focus {
+  border-color: #0fa4af;
+}
